@@ -141,4 +141,24 @@
 
 ---
 
-*Dernière mise à jour: 2026-02-14 22:34*
+## Amens — Audit Round 2 (Builder → Amens) — 2026-02-14
+
+### 🔴 Priority Haute
+- [Builder] Tests E2E absents | dette technique critique avant scale | High
+- [Builder] Error handling | Incohérent entre composants | High
+- [Builder] Rate limiting | Implémentation partielle, non testée | High
+- [Builder] Stripe webhooks | Signature non vérifiée | High
+
+### 🟡 Priority Moyenne
+- [Builder] React.memo manquant | Re-renders inutiles sur ProfessionalCard, BookingSlot | Medium
+- [Builder] useMemo/useCallback | Pas d'optimisation React | Medium
+- [Builder] Lazy loading | Pas de code splitting par route | Medium
+- [Builder] Image optimization | next/image pas utilisé partout | Medium
+
+### 🟢 Priority Basse
+- [Builder] Constants file | Magic strings dans le code | Low
+- [Builder] Bundle analyzer | Jamais exécuté | Low
+
+---
+
+*Dernière mise à jour: 2026-02-14 23:44*
