@@ -3,9 +3,9 @@
 ## AgentViz — Points d'Audit
 
 ### 🔴 Priority Haute
-- [Vision] XSS dans les bulles de chat | Messages non sanitizés | High
-- [Vision] Pas de CSP dans Electron | Risque XSS | High
-- [Vision] Race condition abort controller | Perte requêtes | High
+- [[RESOLU] [Vision] XSS dans les bulles de chat | Messages non sanitizés | High
+- [[RESOLU] [Vision] Pas de CSP dans Electron | Risque XSS | High
+- [[RESOLU] [Vision] Race condition abort controller | Perte requêtes | High
 - [Vision] Timestamps parsing failure | Perte messages | High
 - [Vision] Memory leak animations | Babylon pas nettoyé | High
 
@@ -122,10 +122,10 @@
 ## AgentViz — Audit Round 4 (Vision → AgentViz) — 2026-02-14
 
 ### 🔴 Priority Haute
-- [Vision] XSS dans ChatBubble | Messages non sanitizés avec dangerouslySetInnerHTML potentiel | High
-- [Vision] Pas de CSP HTTP Header | Risque injection scripts | High
+- [[RESOLU] [Vision] XSS dans ChatBubble | Messages non sanitizés avec dangerouslySetInnerHTML potentiel | High
+- [[RESOLU] [Vision] Pas de CSP HTTP Header | Risque injection scripts | High
 - [Vision] Memory leak useEffect cleanup | Animations et intervals pas nettoyés | High
-- [Vision] Race condition AbortController | Ref pas persists entre renders | High
+- [[RESOLU] [Vision] Race condition AbortController | Ref pas persists entre renders | High
 - [Vision] Pas de Error Boundary | Crash Babylon = crash app React entier | High
 - [Vision] Validation JSON absente | Crash si live-messages.json malformé | High
 - [Vision] Absence contextIsolation | Risque XSS via preload Bridge | High
